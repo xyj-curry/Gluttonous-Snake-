@@ -51,13 +51,3 @@ explain_word = \
 1
 1
 """
-# 一共9行代码
-if __name__ == "__main__":
-    a = {"a": 1, "b": 2, "c": 3, "d": 4}
-    print(a)
-    print(a.keys())
-    print(a.values())
-    for i in a.values():
-        print(i)
-    for i in a.keys():
-        print(i)
